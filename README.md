@@ -1,3 +1,5 @@
+![nuxt-mqtt](https://raw.githubusercontent.com/arashsheyda/nuxt-mqtt/refs/heads/main/playground/public/logo.png)
+
 # nuxt-mqtt
 
 SSR-safe MQTT integration for Nuxt 3 using mqtt.js, with runtime config support and a simple composable API.
