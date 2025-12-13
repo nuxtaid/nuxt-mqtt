@@ -12,9 +12,9 @@ export default defineNuxtPlugin(() => {
     ...config,
   })
 
-  client.on('connect', () => console.log('MQTT connected ✅'))
-  client.on('reconnect', () => console.log('MQTT reconnecting 🔄'))
-  client.on('error', err => console.error('MQTT error ❌', err))
+  client.on('connect', () => console.log('✅ MQTT connected'))
+  client.on('reconnect', () => console.log('🔄 MQTT reconnecting'))
+  client.on('error', err => console.error('❌MQTT error', err))
 
   return {
     provide: {
