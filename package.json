@@ -1,6 +1,6 @@
 {
   "name": "nuxt-mqtt",
-  "version": "0.0.0",
+  "version": "0.0.1-beta",
   "description": "SSR-safe MQTT integration for Nuxt 3 using mqtt.js, with runtime config support and a simple composable API.",
   "repository": "https://github.com/arashsheyda/nuxt-mqtt",
   "license": "MIT",
